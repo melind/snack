@@ -295,11 +295,12 @@ html, body {
   }
 
   .donuts_background .arrow {
-    top: 57%;
+    /*top: 57%;*/
   }
 
   .pain_epices_background h1 {
     margin-top: -1%;
+    margin-bottom: 0;
   }
 }
 .screen {
