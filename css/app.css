@@ -258,6 +258,10 @@ html, body {
     width: 50%;
   }
 
+  .cupcakes_background {
+    background-position: center;
+  }
+
   .glaces_background img {
     margin-left: 25%;
   }
@@ -302,7 +306,7 @@ html, body {
 
 @media screen and (max-width: 425px) {
   .screen {
-    height: 50vh;
+    height: 65vh;
   }
 }
 .arrow {
