@@ -34,9 +34,10 @@
 .cupcakes_background {
   background-image: url('./../images/cupcakes.jpeg');
   color: $Light-pink;
+}
+.cupcakes_background h1{
   text-align: center;
 }
-
 .img {
   position: absolute;
   width: 18%;

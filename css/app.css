@@ -161,6 +161,9 @@ html, body {
 .cupcakes_background {
   background-image: url("./../images/cupcakes.jpeg");
   color: #ffdbe6;
+}
+
+.cupcakes_background h1 {
   text-align: center;
 }
 
