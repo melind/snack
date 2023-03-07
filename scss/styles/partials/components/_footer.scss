@@ -1,0 +1,17 @@
+footer {
+    background-color: $Brown;
+    color: $Yellow;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 35px;
+}
+
+footer div {
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 425px) {
+    footer {
+      font-size: 15px;
+    }
+}  

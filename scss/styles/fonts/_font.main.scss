@@ -1,4 +1,30 @@
+
 body {
-    font-family: 'Red Hat Tex', sans-serif;	
+    font-family: 'Gabriola', serif;	
     font-size : 14px;
 }
+
+
+h1 {
+    margin-top: 0;
+}
+h1, .info_title {
+    font-family: 'timberline', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    h1, .info_title {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    h1, .info_title {
+        font-size: 35px;
+    }
+  }

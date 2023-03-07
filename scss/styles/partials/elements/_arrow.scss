@@ -1,0 +1,50 @@
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2%;
+    position: relative;
+    top: 25%;
+}
+.rectangle {
+    width: 180px;
+    height: 60px;
+    border-radius: 33px;
+    background: linear-gradient($Purple,$Purple-light,$Purple);
+    
+}
+
+.triangle {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 25px 25px 144px 25px;
+    rotate: 140deg;
+    margin-left: -37px;
+    background: linear-gradient(39deg,$Purple,$Purple-light,$Purple);
+}
+
+.rectangle p {
+    font-size: 39px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .arrow {
+        margin: 0;
+        top: 54%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .arrow {
+      top: 50%;
+    }
+  }
+@media screen and (max-width: 1024px) {
+   
+}
+

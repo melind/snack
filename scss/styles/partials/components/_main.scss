@@ -1,0 +1,158 @@
+
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+ 
+    margin: 0;
+  
+  }
+  
+
+.welcome_background {
+  background-image: url('./../images/lady_candy.jpeg');
+  display: flex;
+  justify-content: center;
+}
+
+.welcome{
+  
+  background: radial-gradient(white,$Light-pink);
+  opacity: 0.87;
+  position: absolute;
+  bottom: 0;
+  padding: 0 2% 0 2%;
+  font-size: 65px;
+  color: $Dark-pink;
+}
+
+.welcome p {
+  margin: 0;
+  text-align: center;
+}
+
+.cupcakes_background {
+  background-image: url('./../images/cupcakes.jpeg');
+  color: $Light-pink;
+  text-align: center;
+}
+
+.img {
+  position: absolute;
+  width: 18%;
+}
+
+.glaces_background {
+  background-image: url('./../images/glaces.jpeg');
+  color: $Light-blue;
+}
+.glaces_background h1{
+  text-align: center;
+}
+
+.glaces_background img {
+  margin-left: 4%;
+}
+
+.donuts_background {
+  background-image: url('./../images/donuts.jpeg');
+  color: $Yellow;
+  position: relative;
+}
+
+.donuts_background img {
+  right: 0;
+  bottom: 0;
+}
+
+
+.donuts_background h1 {
+  margin-right: 8%;
+  text-align: right;
+  
+}
+
+.pain_epices_background {
+  background-image: url('./../images/pain_epices.jpeg');
+  text-align: center;
+  color: $White;
+}
+
+.infos {
+  display: flex;
+}
+
+.infos > div {
+  margin-left: 5%;
+}
+
+.info_title {
+  color: $Dark-pink;
+  margin: 0;
+}
+
+.info {
+  font-size: 45px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .img {
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .welcome{
+    font-size: 45px;
+  }
+  .img {
+    width: 50%;
+  }
+  .glaces_background img {
+    margin-left: 25%;
+  }
+
+
+  .donuts_background h1 {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .infos{
+    flex-direction: column;
+    text-align: left;
+    
+  }
+  .info {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .info {
+    font-size: 15px;
+  }
+
+  .welcome{
+    bottom: 50%;
+    font-size: 33px;
+  }
+  .donuts_background img{
+    display: none;
+  }
+  .donuts_background h1 {
+    margin-top: -1%;
+  }
+
+  .donuts_background  .arrow {
+    top: 57%;
+  }
+  
+
+  .pain_epices_background h1 {
+    margin-top: -1%;
+  }
+}
